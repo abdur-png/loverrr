@@ -35,8 +35,8 @@ h1, h2 {
 
 /* Specific style for Valentine's Day heading */
 h1 {
-    font-size: 4.5vw; /* Increased size for better visibility */
-    color: #e17171; /* Valentine's red color */
+   font-size: 4.5rem; /* Increased size for better visibility */
+    color: #e17171;
     margin-top: 1%; /* Adjust spacing as needed */
     position: relative; /* Adjusted for positioning */
     text-shadow: 0.04em 0.04em 0 rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -44,8 +44,8 @@ h1 {
 
 /* Adjustments for subheading */
 h2 {
-    font-size: 2vw; /* Adjusted size for balance with h1 */
-    color: #333; /* Darker color for contrast */
+   font-size: 2rem; /* Adjusted size for balance with h1 */
+    color: #333;
     position: relative; /* Adjusted for positioning */
     bottom: auto; /* Reset to default */
     margin-top: 2%; /* Added margin for spacing */
@@ -82,14 +82,13 @@ span.three:after {
 
 @media screen and (min-width: 880px) {
     h1 {
-        font-size: 2.5vw;
+        font-size: 2.5rem;
     }
 
     h1 span {
-        font-size: 6vw;
+        font-size: 6rem;
     }
 }
-
 
 
 .wrapper {
