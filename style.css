@@ -330,7 +330,7 @@ span.three:after {
 }
 
 .big-message p {
-    font-size: 1.2em; /* Makes font larger; adjust value as needed */
+    font-size: 2.0em; /* Makes font larger; adjust value as needed */
     margin: 0 0 10px 0; /* Adds spacing between paragraphs */
 }
 
