@@ -543,11 +543,20 @@ span.three:after {
     position: fixed;
 }
 
-/* Add the .big-message CSS rule here */
 .big-message {
-    font-size: 3em; /* Adjust the size as needed */
-    color: #e17171; /* Choose a color that fits your design */
-    margin: 20px 0; /* Add some spacing around the message */
-    font-family: 'Montserrat', sans-serif; /* Consistent font */
-    text-align: center; /* Center the message */
+    color: #e17171; /* A warm, inviting red color */
+    font-family: 'Montserrat', sans-serif; /* Maintain font consistency */
+    text-align: center; /* Center the text */
+    margin: 1em 0; /* Add some top and bottom space */
+    font-weight: normal; /* Default weight for easier readability */
+    line-height: 1.5; /* Increase line height for better readability */
+    max-width: 800px; /* Maximum width of the text block */
+    margin-left: auto; /* Center block horizontally */
+    margin-right: auto; /* Center block horizontally */
+    padding: 20px; /* Padding inside the message block */
+    background-color: #fff; /* White background to make text pop out */
+    border: 3px solid #ffcccb; /* Soft red border */
+    border-radius: 15px; /* Rounded corners for the message block */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
+
