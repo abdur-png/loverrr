@@ -318,15 +318,27 @@ span.three:after {
 }
 
 .big-message {
-    padding: 20px; /* Adjust the padding as necessary */
-    background-color: #fff; /* Keeps the background white for contrast */
-    border: 2px solid #ffcccb; /* A light red/pink border that's not too thick */
-    border-radius: 10px; /* Slightly rounded corners for a softer look */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* A subtler shadow for depth */
-    max-width: 50%; /* Reduces the width of the box */
-    margin: auto; /* Centers the box */
-    box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+    padding: 20px;
+    background-color: #fff;
+    border: 2px solid #ffcccb;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 50%;
+    margin: auto;
+    box-sizing: border-box;
+    text-align: left; /* Aligns text to the left */
 }
+
+.big-message p {
+    font-size: 1.2em; /* Makes font larger; adjust value as needed */
+    margin: 0 0 10px 0; /* Adds spacing between paragraphs */
+}
+
+.big-message h3 {
+    font-size: 1.4em; /* Makes font larger for the heading; adjust value as needed */
+    margin-bottom: 10px; /* Adds some space below the heading */
+}
+
 
 /* For the h2 tag and the span inside it */
 h2 {
