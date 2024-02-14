@@ -326,7 +326,7 @@ span.three:after {
     height: 100%;
 }
 
-.main .big-message {
+.big-message {
     padding: 20px;
     background-color: #fff;
     border: 2px solid #ffcccb;
@@ -336,19 +336,18 @@ span.three:after {
     margin: 0 auto; /* Centers the box */
     box-sizing: border-box;
     text-align: left; /* Aligns text to the left */
-    font-size: 1.2em; /* Increased font size */
 }
 
-.main .big-message h3,
-.main .big-message p {
+.big-message h3,
+.big-message p {
     font-size: 1.2em; /* Increase the font size as needed */
     margin-bottom: 0.5em; /* Adjust the space between paragraphs */
 }
 
-/* For mobile responsiveness */
+/* Adjust the font size for smaller screens if necessary */
 @media screen and (max-width: 600px) {
-    .main .big-message h3,
-    .main .big-message p {
+    .big-message h3,
+    .big-message p {
         font-size: 1em; /* Smaller font size for mobile devices */
     }
 }
