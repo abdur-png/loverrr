@@ -317,17 +317,32 @@ span.three:after {
     position: fixed;
 }
 
-.big-message {
-    font-size: 1.2em; /* Adjusted font size */
-    color: #e17171; /* Consistent color for Valentine theme */
-    margin: 20px 0; /* More spacing around the message */
-    padding: 20px; /* Padding for spacing inside the box */
-    background-color: #fff; /* White background for better readability */
-    border: 3px solid #ffcccb; /* Border color to match the theme */
-    border-radius: 15px; /* Rounded corners */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
-    max-width: 800px; /* Max width for better control of the text block */
-    margin-left: auto; /* Centering the block */
-    margin-right: auto; /* Centering the block */
+.big-message p {
+    font-weight: bold; /* Makes the text bold */
+    font-size: 1.2em; /* Increases the font size */
+    text-align: left; /* Aligns the text to the left */
+    margin: 10px 0; /* Adds a little space above and below each paragraph */
+    line-height: 1.5; /* Improves line spacing for readability */
+    color: #333; /* Darker text for better readability */
 }
+
+/* Add padding inside the .big-message to ensure the text doesn't touch the borders */
+.big-message {
+    padding: 20px; /* Adjust the padding as necessary */
+    background-color: #fff; /* Keeps the background white for contrast */
+    border: 2px solid #ffcccb; /* A light red/pink border that's not too thick */
+    border-radius: 10px; /* Slightly rounded corners for a softer look */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* A subtler shadow for depth */
+    max-width: 90%; /* Ensures the box doesn't get too wide on large screens */
+    box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
+}
+
+/* If you have a title in your message box, you might want to style it separately */
+.big-message h3 {
+    font-size: 1.4em; /* Slightly larger than the paragraph text */
+    font-weight: bold; /* Make it bold */
+    color: #e17171; /* Use the Valentine's red theme color */
+    margin-bottom: 15px; /* Adds space below the title */
+}
+
 
