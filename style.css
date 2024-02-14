@@ -317,32 +317,31 @@ span.three:after {
     position: fixed;
 }
 
-.big-message p {
-    font-weight: bold; /* Makes the text bold */
-    font-size: 1.2em; /* Increases the font size */
-    text-align: left; /* Aligns the text to the left */
-    margin: 10px 0; /* Adds a little space above and below each paragraph */
-    line-height: 1.5; /* Improves line spacing for readability */
-    color: #333; /* Darker text for better readability */
-}
-
-/* Add padding inside the .big-message to ensure the text doesn't touch the borders */
 .big-message {
     padding: 20px; /* Adjust the padding as necessary */
     background-color: #fff; /* Keeps the background white for contrast */
     border: 2px solid #ffcccb; /* A light red/pink border that's not too thick */
     border-radius: 10px; /* Slightly rounded corners for a softer look */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* A subtler shadow for depth */
-    max-width: 90%; /* Ensures the box doesn't get too wide on large screens */
+    max-width: 50%; /* Reduces the width of the box */
+    margin: auto; /* Centers the box */
     box-sizing: border-box; /* Ensures padding doesn't affect the overall width */
 }
 
-/* If you have a title in your message box, you might want to style it separately */
-.big-message h3 {
-    font-size: 1.4em; /* Slightly larger than the paragraph text */
-    font-weight: bold; /* Make it bold */
-    color: #e17171; /* Use the Valentine's red theme color */
-    margin-bottom: 15px; /* Adds space below the title */
+/* For the h2 tag and the span inside it */
+h2 {
+    font-size: 1.5rem; /* Reduces the font size */
+    margin: 20px 0; /* Adds margin to the top and bottom */
 }
 
+h2 span#valentine {
+    font-size: 1rem; /* Further reduces the font size for the span */
+    display: block; /* Makes the span behave like a block element */
+    margin-top: 10px; /* Adds a little space above the span */
+}
 
+/* You may also want to ensure the entire .main content is centered */
+.main {
+    width: 80%; /* Adjusts the width of the main content */
+    margin: auto; /* Centers the main content */
+}
