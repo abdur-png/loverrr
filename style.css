@@ -335,19 +335,19 @@ span.three:after {
 }
 
 .big-message h3 {
-    font-size: 1.4em; /* Makes font larger for the heading; adjust value as needed */
+    font-size: 3.0em; /* Makes font larger for the heading; adjust value as needed */
     margin-bottom: 10px; /* Adds some space below the heading */
 }
 
 
 /* For the h2 tag and the span inside it */
 h2 {
-    font-size: 1.5rem; /* Reduces the font size */
+    font-size: 3.0rem; /* Reduces the font size */
     margin: 20px 0; /* Adds margin to the top and bottom */
 }
 
 h2 span#valentine {
-    font-size: 1rem; /* Further reduces the font size for the span */
+    font-size: 3.0rem; /* Further reduces the font size for the span */
     display: block; /* Makes the span behave like a block element */
     margin-top: 10px; /* Adds a little space above the span */
 }
