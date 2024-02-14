@@ -1,7 +1,7 @@
 html, body {
     background-color: #ace7ff;
-    font-size: 10px; /* This sets the base font size to be more responsive */
-    line-height: 1.6; /* Improved line-height for better readability */
+    font-size: 62.5%; /* 1rem = 10px */
+    line-height: 1.6;
     margin: 0;
     display: flex;
     cursor: default;
@@ -12,7 +12,6 @@ html, body {
     padding: 0;
 }
 
-/* Centered main content style */
 .main {
     vertical-align: middle;
     text-align: center;
@@ -22,7 +21,6 @@ html, body {
     justify-content: center;
 }
 
-/* Heading styles */
 h1, h2 {
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
@@ -33,22 +31,18 @@ h1, h2 {
     z-index: 10;
 }
 
-/* Specific style for Valentine's Day heading */
 h1 {
-   font-size: 4.5rem; /* Increased size for better visibility */
+    font-size: 4.5rem; /* Responsive font size for large screens, falls back to a larger size on smaller screens */
     color: #e17171;
-    margin-top: 1%; /* Adjust spacing as needed */
-    position: relative; /* Adjusted for positioning */
-    text-shadow: 0.04em 0.04em 0 rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    margin-top: 1%;
+    position: relative;
+    text-shadow: 0.04em 0.04em 0 rgba(0, 0, 0, 0.1);
 }
 
-/* Adjustments for subheading */
 h2 {
-   font-size: 2rem; /* Adjusted size for balance with h1 */
+    font-size: 2rem; /* Smaller than h1 but still significant */
     color: #333;
-    position: relative; /* Adjusted for positioning */
-    bottom: auto; /* Reset to default */
-    margin-top: 2%; /* Added margin for spacing */
+    margin-top: 2%;
 }
 
 /* Styles for h1 spans */
@@ -325,14 +319,15 @@ span.three:after {
     max-width: 50%;
     margin: auto;
     box-sizing: border-box;
-    text-align: left; /* Aligns text to the left */
+    text-align: left;
 }
 
-.big-message h3,
+.big-message h3 {
+    font-size: 2.5rem; /* Larger for headings within big-message */
+}
+
 .big-message p {
-    font-size: 2.0rem; /* Now 2.0rem will equal 20px */
-    margin: 0 0 10px 0; /* Adds spacing between paragraphs */
-    text-align: left; /* Aligns text to the left */
+    font-size: 1.5rem; /* Larger for text within big-message */
 }
 
 .big-message h3 {
