@@ -332,21 +332,24 @@ span.three:after {
     border: 2px solid #ffcccb;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    max-width: 600px; /* or 50%, depending on your design preference */
-    margin: 0 auto; /* This centers the box horizontally */
+    max-width: 600px; /* Adjust the width as needed */
+    margin: 0 auto; /* Centers the box */
     box-sizing: border-box;
+    text-align: left; /* Aligns text to the left */
 }
 
-/* For the h2 tag and the span inside it */
-h2 {
-    font-size: 1.5rem; /* Reduces the font size */
-    margin: 20px 0; /* Adds margin to the top and bottom */
+.big-message h3,
+.big-message p {
+    font-size: 1.2em; /* Increase the font size as needed */
+    margin-bottom: 0.5em; /* Adjust the space between paragraphs */
 }
 
-h2 span#valentine {
-    font-size: 1rem; /* Further reduces the font size for the span */
-    display: block; /* Makes the span behave like a block element */
-    margin-top: 10px; /* Adds a little space above the span */
+/* Adjust the font size for smaller screens if necessary */
+@media screen and (max-width: 600px) {
+    .big-message h3,
+    .big-message p {
+        font-size: 1em; /* Smaller font size for mobile devices */
+    }
 }
 
 
