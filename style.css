@@ -518,37 +518,15 @@ span.three:after {
 }
 
 @-webkit-keyframes wobble {
-
-    0%,
-    50%,
-    100% {
-        transform: rotate(0deg);
-    }
-
-    25% {
-        transform: rotate(10deg);
-    }
-
-    75% {
-        transform: rotate(-10deg);
-    }
+    0%, 50%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
 }
 
 @keyframes wobble {
-
-    0%,
-    50%,
-    100% {
-        transform: rotate(0deg);
-    }
-
-    25% {
-        transform: rotate(10deg);
-    }
-
-    75% {
-        transform: rotate(-10deg);
-    }
+    0%, 50%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(10deg); }
+    75% { transform: rotate(-10deg); }
 }
 
 #falling-hearts {
@@ -563,4 +541,13 @@ span.three:after {
     opacity: 0;
     z-index: 1000;
     position: fixed;
+}
+
+/* Add the .big-message CSS rule here */
+.big-message {
+    font-size: 3em; /* Adjust the size as needed */
+    color: #e17171; /* Choose a color that fits your design */
+    margin: 20px 0; /* Add some spacing around the message */
+    font-family: 'Montserrat', sans-serif; /* Consistent font */
+    text-align: center; /* Center the message */
 }
